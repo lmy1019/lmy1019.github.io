@@ -36,7 +36,15 @@ Github:
 <a href="https://github.com/lmy1019"> https://github.com/lmy1019</a><p>
  
 Blog:
-<a href="https://github.com/lmy1019/lmy1019.github.io/blob/main/blog.md"> https://github.com/lmy1019/lmy1019.github.io/blob/main/blog.md</a><p>
+ 
+{% for collection in site.collections %}
+<!-- site.collections seems to be defined in _config.yml -->
+
+{% assign name = collection.label | append: '.html' %}
+
+{% include {{ name }} %}
+
+{% endfor %}
 
 </ul>
 <h2 class="style1"> Education</h2>
