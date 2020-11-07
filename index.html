@@ -23,14 +23,7 @@ title: Blog
 <!-- factored out all the collections to _includes -->
 
 
-{% for collection in site.collections %}
-<!-- site.collections seems to be defined in _config.yml -->
 
-	{% assign name = collection.label | append: '.html' %}
-
-	{% include {{ name }} %}  
-
-{% endfor %}
 
 <h2 class="style1">About Me</h2>
 <ul>
