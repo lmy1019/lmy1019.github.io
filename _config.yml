@@ -1,3 +1,18 @@
-theme: jekyll-theme-tactile
-future: true
-timezone: utc-5
+#: See https://github.com/pages-themes/cayman#usage
+theme: jekyll-theme-cayman
+title: "Mingyang"
+# color: black
+description: ""
+github: metadata
+markdown: kramdown
+
+# support emoji
+plugins:
+  - jemoji
+
+# https://jekyllrb.com/docs/collections/ (TODO: poems, music?)
+collections:
+
+  posts:
+    layout: article
+    output: true
