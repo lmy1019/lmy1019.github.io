@@ -21,6 +21,16 @@
 <td width="1026" id="layout-content">
 <div id="toptitle">
 <h1 class="style1">Mingyang Liu </h1>
+	
+	
+{% for collection in site.collections %}
+<!-- site.collections seems to be defined in _config.yml -->
+
+	{% assign name = collection.label | append: '.html' %}
+
+	{% include {{ name }} %}
+
+{% endfor %}
   
 
 <h2 class="style1">About Me</h2>
@@ -35,21 +45,11 @@ Linkedin:
 Github:
 <a href="https://github.com/lmy1019"> https://github.com/lmy1019</a><p>
  
-Blog:
- 
-{% for collection in site.collections %}
-<!-- site.collections seems to be defined in _config.yml -->
-
-	{% assign name = collection.label | append: '.html' %}
-
-	{% include {{ name }} %}
-
-{% endfor %}
 
 </ul>
 <h2 class="style1"> Education</h2>
 <ul>
-<li>PhD. in Applied Mathematics and Computational Science, University of Pennsylvania (2015-2020)</li>
+<li>Ph.D. in Applied Mathematics and Computational Science, University of Pennsylvania (2015-2020)</li>
 <li>M.A. in Statistics, Wharton School, University of Pennsylvania (2015-2020)</li>
 <li>M.S. in Mathematics, University of California, Irvine (2013-2015)</li>
 <li>B.S. in Management, <a href="http://english.ecnu.edu.cn"> East China Normal University </a> (2009-2013)</li>
