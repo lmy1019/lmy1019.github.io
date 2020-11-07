@@ -40,9 +40,9 @@ Blog:
 {% for collection in site.collections %}
 <!-- site.collections seems to be defined in _config.yml -->
 
-{% assign name = collection.label | append: '.html' %}
+	{% assign name = collection.label | append: '.html' %}
 
-{% include {{ name }} %}
+	{% include {{ name }} %}
 
 {% endfor %}
 
