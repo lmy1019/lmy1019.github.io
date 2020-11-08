@@ -7,7 +7,7 @@ title: TRUE MODEL MIGHT NOT BE THE BEST PREDICTIVE MODEL
 
 Hagerty and Srinivasan (1991): “We note that the practice in applied research of concluding that a model with a higher predictive validity is “truer,” is not a valid inference.
 
-Lemma: $$MSE = E[(\tilde y - \hat f(\tilde x))^2 | \tilde x ]=\sigma^2+Bias^2+Variance$$
+Lemma: $$MSE. = E[(\tilde y - \hat f(\tilde x))^2 | \tilde x ]=\sigma^2+Bias^2+Variance$$
 
 Let $$y=x'\beta_0+\epsilon, \beta_0=(\beta_{01}, \beta_{02})$$, and $$\hat{f}$$ be its OLS estimator. 
 
