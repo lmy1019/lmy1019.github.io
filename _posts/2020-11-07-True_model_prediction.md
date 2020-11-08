@@ -1,9 +1,11 @@
 ---
 author:
 - Mingyang Liu
-title: "TRUE" MODEL MIGHT NOT BE THE BEST PREDICTIVE MODEL
+title: 123
 ...
 ---
+
+"TRUE" MODEL MIGHT NOT BE THE BEST PREDICTIVE MODEL
 
 Hagerty and Srinivasan (1991): “We note that the practice in applied research of concluding that a model with a higher predictive validity is “truer,” is not a valid inference.
 
