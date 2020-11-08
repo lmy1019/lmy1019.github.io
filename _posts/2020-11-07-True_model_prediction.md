@@ -11,13 +11,9 @@ Recall that $$MSE = E[(\tilde y - \hat f(\tilde x))^2 \| \tilde x ]=\sigma^2+Bia
 
 Let $$y=x'\beta_0+\epsilon, \beta_0=(\beta_{01}, \beta_{02})$$, and $$\hat{f}$$ be its OLS estimator. 
 
-The "TRUE" model satisfies
+The "TRUE" model satisfies bias=$$0$$, Variance=$$\sigma^2\tilde x'(X'X)^{-1}\tilde x$$
 
-bias=$$0$$, Variance=$$\sigma^2\tilde x'(X'X)^{-1}\tilde x$$
-
-Consider a parsimonious model $$\hat f^* (x)=\hat \gamma x$$. Then it satisfies
-
-Bias'=$$(\tilde x_1\frac{X_1'X_2}{X_1'X_1}-\tilde x_2)\beta_2$$, Variance'=$$\sigma^2\tilde x_1^2(X_1'X_1)^{-1}$$
+Consider a parsimonious model $$\hat f^* (x)=\hat \gamma x$$. Then it satisfies Bias'=$$(\tilde x_1\frac{X_1'X_2}{X_1'X_1}-\tilde x_2)\beta_2$$, Variance'=$$\sigma^2\tilde x_1^2(X_1'X_1)^{-1}$$
 
 Let $$X_1'X1=X_2'X_2=1, X_1'X_2=\rho$$, then
 1. Variance = $$\sigma^2 \frac{1}{1-\rho^2}(\tilde x_1^2-2 \tilde x_1 \tilde x_2+\tilde x_2^2)$$, Bias = 0
