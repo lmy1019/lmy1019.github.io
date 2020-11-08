@@ -22,6 +22,7 @@ Bias'=$$(\tilde x_1\frac{X_1'X_2}{X_1'X_1}-\tilde x_2)\beta_2$$, Variance'=$$\si
 Let $X_1'X1=X_2'X_2=1, X_1'X_2=\rho$, then
 1. Variance = $\sigma^2 \frac{1}{1-\rho^2}(\tilde x_1^2-2\tilde x_1\tilde x_2+\tilde x_2^2)$, Bias = 0
 2. Variance'= $\sigma^2\tilde x_1^2$, Bias'=(\tilde x_1\rho-\tilde x_2)\beta_{02}
+3. When $\rho\rightarrow 1, \beta_2\rightarrow 0, \sigma^2\rightarrow \infty$, Variance'+Bias'<Variance+Bias
 
 
 
